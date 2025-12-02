@@ -1,0 +1,11 @@
+git config --global user.name
+git config --global user.email
+
+git init
+echo "This is my first DevOps repo" > README.md
+cat .\README.md
+git add .
+git commit -m "Initial Commit"
+git remote add origin https://github.com/Tarun7979/devops-roadmap.git
+git branch -M main
+git push -u origin main
